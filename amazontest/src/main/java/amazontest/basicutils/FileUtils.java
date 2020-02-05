@@ -25,7 +25,7 @@ import java.util.Properties;
 
 		public String getDataFromProperties(String key) throws IOException
 		{
-			FileInputStream f= new FileInputStream("./src/main/resources/properties/commondata.properties");
+			FileInputStream f= new FileInputStream("./src/test/resources/properties/commondata.properties");
 			Properties p= new Properties();
 			p.load(f);
 			 
